@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Charles Mclean</title><link>https://blog.whitecat.dev/post/</link><description>Recent content in Posts on Charles Mclean</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 12 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.whitecat.dev/post/index.xml" rel="self" type="application/rss+xml"/><item><title>Resume/CV</title><link>https://blog.whitecat.dev/p/cv/</link><pubDate>Mon, 06 Jan 2025 00:00:00 +0000</pubDate><guid>https://blog.whitecat.dev/p/cv/</guid><description>&lt;h1 id="charles-mclean--cpts">Charles McLean | CPTS
+&lt;/h1>&lt;ul>
+&lt;li>&lt;a class="link" href="mailto:info@whitecat.dev" >info@whitecat.dev&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://www.linkedin.com/in/charlesmcleansec/" target="_blank" rel="noopener"
+>LinkedIn&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="work-experience">Work Experience
+&lt;/h2>&lt;h3 id="cégep-de-saint-hyacinthe--it-tech-support">Cégep de Saint-Hyacinthe | IT Tech Support
+&lt;/h3>&lt;p>&lt;em>2024-Present&lt;/em>&lt;/p>
+&lt;ul>
+&lt;li>IT Technical support offered by students for students and teachers on premise at the school&lt;/li>
+&lt;li>Management of tickets&lt;/li>
+&lt;li>Hardware diagnosis and repairs&lt;/li>
+&lt;li>Software debugging, help or tutoring&lt;/li>
+&lt;li>General assistance with teacher and student projects.&lt;/li>
+&lt;/ul>
+&lt;h3 id="novapc--founder">NovaPC | Founder
+&lt;/h3>&lt;p>&lt;em>2021-2024&lt;/em>&lt;/p>
+&lt;ul>
+&lt;li>Creating custom computers according to specific client needs&lt;/li>
+&lt;li>Design and implementation of complete web solutions, including frontend and backend development&lt;/li>
+&lt;li>Entrepreneurial leadership in creating and growing the company since its founding&lt;/li>
+&lt;/ul>
+&lt;h3 id="bidon-taverne-culinaire--server">Bidon Taverne Culinaire | Server
+&lt;/h3>&lt;p>&lt;em>October 2023 - July 2024, Saint-Lambert&lt;/em>&lt;/p>
+&lt;ul>
+&lt;li>High-quality customer service in an upscale culinary environment&lt;/li>
+&lt;/ul>
+&lt;h3 id="cycle-et-sports-castonguay--bike-mechanic">Cycle et Sports Castonguay | Bike Mechanic
+&lt;/h3>&lt;p>&lt;em>April 2021 - June 2022, April 2023 - July 2024, Saint-Lambert&lt;/em>&lt;/p>
+&lt;ul>
+&lt;li>Excellence in technical diagnosis and bike repair while maintaining clear communication with customers&lt;/li>
+&lt;li>Sales optimization through in-depth product knowledge and exemplary customer service&lt;/li>
+&lt;li>Consistent demonstration of professionalism and maintenance of a welcoming atmosphere&lt;/li>
+&lt;/ul>
+&lt;h2 id="education">Education
+&lt;/h2>&lt;h3 id="cpts--certified-penetration-testing-specialist">CPTS | Certified Penetration Testing Specialist
+&lt;/h3>&lt;p>&lt;em>June 2023 - May 2024, Online&lt;/em>&lt;/p>
+&lt;ul>
+&lt;li>Advanced pentesting certification obtained through HackTheBox&lt;/li>
+&lt;li>Skills validation through successful completion of final exam on May 29, 2024&lt;/li>
+&lt;/ul>
+&lt;h3 id="cégep-de-saint-hyacinthe--dec-computer-technology-networks-and-cybersecurity">Cégep de Saint-Hyacinthe | DEC Computer Technology: Networks and Cybersecurity
+&lt;/h3>&lt;p>&lt;em>2023 - Present, Saint-Hyacinthe&lt;/em>&lt;/p>
+&lt;ul>
+&lt;li>Exceptional academic performance with an overall average of 85%&lt;/li>
+&lt;/ul>
+&lt;h3 id="champlain-college-saint-lambert--computer-science-technology">Champlain College Saint-Lambert | Computer Science Technology
+&lt;/h3>&lt;p>&lt;em>2022 - 2023, Saint-Lambert&lt;/em>&lt;/p>
+&lt;h3 id="collège-notre-dame-de-lourdes--ib-enriched-high-school-diploma">Collège Notre-Dame-de-Lourdes | IB Enriched High School Diploma
+&lt;/h3>&lt;p>&lt;em>2017 - 2022, Saint-Lambert&lt;/em>&lt;/p>
+&lt;ul>
+&lt;li>Specialization in sciences with focus on chemistry, physics, and advanced mathematics&lt;/li>
+&lt;/ul></description></item><item><title>Firewall Bypass V2.0 (WIP)</title><link>https://blog.whitecat.dev/p/firewall-bypass-2/</link><pubDate>Wed, 12 Feb 2025 00:00:00 +0000</pubDate><guid>https://blog.whitecat.dev/p/firewall-bypass-2/</guid><description>&lt;p>&lt;em>&lt;strong>This is for education purposes only, use at your own risk&lt;/strong>&lt;/em>&lt;/p>
+&lt;h3 id="this-guide-will-speak-about-how-to-bypass-a-firewall-using-wireguard-tunneling-a-raspberry-pi-and-an-external-wifi-source-this-guide-is-an-alternative-version-to-the-first-guide-using-a-more-complicated-and-less-straightforward-approach-this-usecase-is-if-you-would-have-no-access-to-an-exposedunmonitored-port">This guide will speak about how to bypass a firewall, using wireguard tunneling, a raspberry pi and an external wifi source. This guide is an alternative version to the first guide, using a more complicated and less straightforward approach. This usecase is if you would have no access to an exposed/unmonitored port.
+&lt;/h3>&lt;p>For this to work you will need:&lt;/p>
+&lt;ol>
+&lt;li>A linux-based SBC (Single Board Connector)&lt;/li>
+&lt;li>An access to the wifi of the organisation/firewalled network&lt;/li>
+&lt;li>A simcard adapter for the external internet access (or a phone acting as a hotspot, although this is more expensive and requires two wifi adapters)&lt;/li>
+&lt;li>A power source for the SBC&lt;/li>
+&lt;li>Linux knowledge&lt;/li>
+&lt;li>Common sense&lt;/li>
+&lt;/ol>
+&lt;p>General outline of this guide.
+We will use nmcli to configure the SBC to connect to the wifi of the organisation, then we will have to setup a wireguard server to let our devices connect to the SBC. After this, we will need to setup a route from our wifi interface to our sim interface to use it as our primary internet source (gateway).&lt;/p></description></item><item><title>Firewall Bypass</title><link>https://blog.whitecat.dev/p/firewall-bypass/</link><pubDate>Wed, 22 Jan 2025 00:00:00 +0000</pubDate><guid>https://blog.whitecat.dev/p/firewall-bypass/</guid><description>&lt;p>&lt;em>&lt;strong>This is for education purposes only, use at your own risk&lt;/strong>&lt;/em>&lt;em>&lt;strong>This is for education purposes only, use at your own risk&lt;/strong>&lt;/em>&lt;/p>
+&lt;h2 id="this-guide-will-speak-about-how-to-bypass-almost-all-firewalls-with-a-stable-ssh-tunnel-with-optional-domain-name-and-pub-key-authentication">This guide will speak about how to bypass almost all firewalls with a stable ssh tunnel (with optional domain name and pub-key authentication)
+&lt;/h2>&lt;h2 id="this-guide-will-speak-about-how-to-bypass-almost-all-firewalls-with-a-stable-ssh-tunnel-with-optional-domain-name-and-pub-key-authentication-1">This guide will speak about how to bypass almost all firewalls with a stable ssh tunnel (with optional domain name and pub-key authentication)
+&lt;/h2>&lt;p>For this to work you will need:&lt;/p>
+&lt;ol>
+&lt;li>A remote ssh server (can be linux, windows, android, whatever, as long as you have a ssh server that is connected to another network than the target) &lt;strong>I STRONGLY RECOMMEND USING A VM&lt;/strong>&lt;/li>
+&lt;li>Port forwarding / access to the router&amp;rsquo;s configuration page. &lt;strong>I RECOMMEND A DMZ&lt;/strong>&lt;/li>
+&lt;li>A firewalled internet connection.&lt;/li>
+&lt;li>A ssh client installed on your device capable of doing ssh tunneling.&lt;/li>
+&lt;li>Some minimal linux / networking knowledge&lt;/li>
+&lt;li>Common sense&lt;/li>
+&lt;li>Optionally: a domain name&lt;/li>
+&lt;/ol>
+&lt;h4 id="first-you-need-to-know-the-outgoing-port-and-protocol-allowed-by-your-target-network-in-my-case-it-was-22-with-the-ssh-protocol-allowed-this-will-most-likely-be-the-hardest-and-most-complicated-part-to-do-beforehand-i-will-not-explain-how-to-do-this-as-it-is-out-of-scope-and-not-part-of-this-guide">First, you need to know the outgoing port and protocol allowed by your target network (in my case it was &lt;em>22&lt;/em> with the &lt;em>ssh&lt;/em> protocol allowed). This will most likely be the hardest and most complicated part to do beforehand. I will not explain how to do this as it is out of scope and not part of this guide.
+&lt;/h4>&lt;p>Then, you can do the following on your remote (personal computer / vm / phone) ssh server. I will be using linux as the OS of the server and Debian as the distro.&lt;/p>
+&lt;p>First, edit the ssh server config permit password authentication (should be activated by default)&lt;/p>
+&lt;p>&lt;code>sudo nano /etc/ssh/sshd_config&lt;/code>&lt;/p>
+&lt;p>And then change from&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">#PasswordAuthentication yes
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">to
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">PasswordAuthentication yes
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>&lt;code>ip a&lt;/code>&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">1: wlan0: &amp;lt;BROADCAST,MULTICAST,UP,LOWER_UP&amp;gt; mtu 1500 qdisc noqueue state UP group default qlen 1000
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> link/ether [redacted] brd ff:ff:ff:ff:ff:ff permaddr [redacted]
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> inet 192.168.2.63/24 brd 192.168.2.255 scope global dynamic noprefixroute wlan0
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> valid_lft 1410sec preferred_lft 1410sec
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>In my case, my internal (private) ip is 192.168.2.63&lt;/p>
+&lt;p>Next, it to setup a port forward on your external ip to your ssh server using the outgoing port as your external internet-facing port and 22 as your internal port pointing to your server&amp;rsquo;s internal ip.&lt;/p>
+&lt;p>On opnsense, it should look like this:
+&lt;img src="https://blog.whitecat.dev/p/firewall-bypass/image.png"
+width="2268"
+height="65"
+srcset="https://blog.whitecat.dev/p/firewall-bypass/image_hu_3ad571a2004d2fb1.png 480w, https://blog.whitecat.dev/p/firewall-bypass/image_hu_2a4231ea6c4e8aec.png 1024w"
+loading="lazy"
+alt="Image 1"
+class="gallery-image"
+data-flex-grow="3489"
+data-flex-basis="8374px"
+>&lt;/p>
+&lt;p>&lt;code>sudo systemctl enable --now sshd.service&lt;/code>&lt;/p>
+&lt;p>And curl your external ip, if ever you forgot it.&lt;/p>
+&lt;p>&lt;code>curl ifconfig.me&lt;/code>&lt;/p>
+&lt;p>&lt;code>[example_ip]&lt;/code>&lt;/p>
+&lt;p>And, you&amp;rsquo;re done! Just for the server&amp;rsquo;s side however.&lt;/p>
+&lt;p>Install &amp;ldquo;sshuttle&amp;rdquo; on your client.&lt;/p>
+&lt;p>&lt;code>sudo apt install sshuttle&lt;/code>&lt;/p>
+&lt;p>On the client, now simply connect in this fashion:&lt;/p>
+&lt;p>(Replace example_ip by your external ip)&lt;/p>
+&lt;p>&lt;code>sudo sshuttle --dns -vr [your_user_name]@[example_ip]:22 0/0 -x [example_ip]&lt;/code>&lt;/p>
+&lt;p>Login using your username and password as you normally would on your server.&lt;/p>
+&lt;p>And there you have it, a ssh tunnel from your target&amp;rsquo;s network to your remote server, essentially bypassing every restriction/firewall they would have in place.&lt;/p>
+&lt;h1 id="optional-more-advanced-configuration-with-a-domain-name-and-pub-key-authentication">(OPTIONAL) More advanced configuration with a domain name and pub-key authentication.
+&lt;/h1>&lt;p>First, setup a &amp;ldquo;A&amp;rdquo; dns record using your provider of choice pointing to your public ip.&lt;/p>
+&lt;p>I will be using ssh.example.com as the domain name&lt;/p>
+&lt;p>&lt;code>sudo sshuttle --dns -vr [your_user_name]@ssh.example.com:22 0/0 -x ssh.example.com&lt;/code>&lt;/p>
+&lt;p>Quite simple but effective, in case you cant remember your ip.&lt;/p>
+&lt;p>But in this case you would be exposing a ssh server to the internet using a domain name, making it even simpler for attackers to use a zero-day exploit on your vm/machine. This is why i recommend setting up a &lt;strong>DMZ&lt;/strong> and a vm/docker container to make it contained and seperate from your home network in case of infiltration by an adversary.&lt;/p>
+&lt;p>Next, we will be using pub-key authentication to login into our ssh server from now on.&lt;/p>
+&lt;p>From your client, do&lt;/p>
+&lt;p>&lt;code>ssh-copy-id [your_user_name]@[example_ip] or (ssh.example.com)&lt;/code>&lt;/p>
+&lt;p>And from now on, you will not need to use a ssh password. Just dont loose your private key, or misplace it as anyone with this private key can now access your server.&lt;/p>
+&lt;p>To conterviene this, use a password protected ssh private key.&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;span class="lnt">6
+&lt;/span>&lt;span class="lnt">7
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">ssh-keygen
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Generating public/private ed25519 key pair.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Enter file in which to save the key (/home/[your_user_name]/.ssh/id_ed25519):
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Enter passphrase for &amp;#34;/home/[your_user_name]/.ssh/id_ed25519&amp;#34; (empty for no passphrase):
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Enter same passphrase again:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Your identification has been saved in /home/[your_user_name]/.ssh/id_ed25519
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Your public key has been saved in /home/[your_user_name]/.ssh/id_ed25519.pub
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>Now use the following command to connect:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">sudo sshuttle --dns -vr &lt;span class="o">[&lt;/span>your_user_name&lt;span class="o">]&lt;/span>@ssh.example.com:22 0/0 -x ssh.example.com --ssh-cmd &lt;span class="s1">&amp;#39;ssh -i /home/[your_user_name]/.ssh/id_ed25519&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div></description></item><item><title>My Past Experiences</title><link>https://blog.whitecat.dev/p/past/</link><pubDate>Sat, 18 Jan 2025 00:00:00 +0000</pubDate><guid>https://blog.whitecat.dev/p/past/</guid><description>&lt;h1 id="my-past">My past
+&lt;/h1>&lt;p>I have always been a geek in terms of computers and IT. When it came to making Minecraft servers at the age of 11 years old or just goofing around in Kali Linux when I was young, having no idea what I was doing, I started my interest in computers at a young age. At the age of 14, I started playing around with servers and virtualization - I notably built my own homelab based (at the time) on UnRaid.&lt;/p>
+&lt;p>I next went on my Nova PC endeavor at the age of 15 years old. This company first started out as a &amp;ldquo;Custom PC Building&amp;rdquo; service where you could choose every part of your PC online and we would build it for you. This website was mainly built on WordPress and would later on be switched over to a native and static Next.js website for speed and optimization.&lt;/p>
+&lt;p>See more:
+&lt;a class="link" href="https://blog.whitecat.dev/p/nova-pc/" >Nova PC&lt;/a>&lt;/p>
+&lt;p>We started out, as a team of three, the PlayStranded Modded Rust Server. This custom but mostly QoL improvements on the base game of Rust offered multiple game servers, all hosted in my basement. After which we had to shut down the server due to lack of time spent for advertising and other concerns such as school. After the shutdown of PlayStranded, we switched back to reviving the Nova PC business image. This implied a complete makeover, such as switching to web hosting and game hosting.&lt;/p>
+&lt;p>Later came the time to choose which of my CEGEP studies I would be undertaking - cybersec and networking was an obvious choice. In the meantime, I completed the CPTS certification from HackTheBox, which was an incredible and enriching experience. I now no longer operate any companies but do some work on the side other than the technical support team at school.&lt;/p></description></item><item><title>My Future</title><link>https://blog.whitecat.dev/p/future/</link><pubDate>Tue, 07 Jan 2025 00:00:00 +0000</pubDate><guid>https://blog.whitecat.dev/p/future/</guid><description>&lt;h1 id="my-future">My future
+&lt;/h1>&lt;p>I hope to further enhance my cybersec skills, especially at the university I will be attending, in which I aspire to become the best hacking version of myself. I will pursue my self-taught adventures and projects before I attend this university. My next certification in my sights is the OSCP (aka PEN-200) from OffSec. This certification, although seen as a less complete version of CPTS, is the most recognizable and known pentesting certification on the market. I will continue to attend the CTFs in my area and hope to get the highest score I can achieve.&lt;/p>
+&lt;p>Now, enough talked about myself, lets get to tutorials and knowledge on hacking all kinds of stuff!&lt;/p></description></item><item><title>Nova PC</title><link>https://blog.whitecat.dev/p/nova-pc/</link><pubDate>Mon, 06 Jan 2025 00:00:00 +0000</pubDate><guid>https://blog.whitecat.dev/p/nova-pc/</guid><description>&lt;h1 id="nova-pc">Nova PC
+&lt;/h1>&lt;h2 id="what-was-nova-pc">What was Nova PC?
+&lt;/h2>&lt;p>Nova PC first started out as a small 3-man business focusing mainly on custom PC building services and put a name on my own &amp;ldquo;on the side&amp;rdquo; technical support business. Our custom PC business mainly was a website where people could write us an email (to have a more detailed explanation of their build) or use the built-in Custom Computer Configurator based on WordPress (it was at the time the most cost-efficient and rapid option) that I myself set up entirely. I also had a Facebook profile where people could contact me directly to have their tech issues fixed up by me in a matter of hours. I offered an at-home technical support service, which at the time was undercutting the other companies by a MILE in terms of cost for the client.
+After this &lt;em>phase&lt;/em> of Nova PC came the game server hosting endeavors.
+&lt;img src="https://blog.whitecat.dev/p/nova-pc/image.png"
+width="2208"
+height="1186"
+srcset="https://blog.whitecat.dev/p/nova-pc/image_hu_8a6b7cb4e320a07d.png 480w, https://blog.whitecat.dev/p/nova-pc/image_hu_972a1953caebcfbb.png 1024w"
+loading="lazy"
+alt="Image 1"
+class="gallery-image"
+data-flex-grow="186"
+data-flex-basis="446px"
+>&lt;/p>
+&lt;h2 id="playstrandednet">PlayStranded.net
+&lt;/h2>&lt;p>I had a Dell PowerEdge R620 which I used, at the time, as a personal homelab. Then came the idea to reuse the same infrastructure to make a profit out of it. This server had enough resources to run 3-4 servers of the game named Rust (at full capacity). I would name this branch of Nova PC &amp;ldquo;PlayStranded.net&amp;rdquo;. This custom-made game server was based on LinuxGSM for simplicity and ease of use with the capabilities I had at the time. These servers had plugins and mods made to enhance the Quality of Life of the players overall while playing in these servers. It took us about a week to set up everything.&lt;/p>
+&lt;p>&lt;img src="https://blog.whitecat.dev/p/nova-pc/image2.png"
+width="1616"
+height="1482"
+srcset="https://blog.whitecat.dev/p/nova-pc/image2_hu_1bd9bd71c91b2e94.png 480w, https://blog.whitecat.dev/p/nova-pc/image2_hu_28aae0ca1337c2d.png 1024w"
+loading="lazy"
+alt="Image 2"
+class="gallery-image"
+data-flex-grow="109"
+data-flex-basis="261px"
+>&lt;/p>
+&lt;h2 id="game-hosting">Game Hosting
+&lt;/h2>&lt;p>Then came the time to change up the Nova PC sector of activities again. I changed from a Dell PowerEdge R620 to a newer and better Cisco UCS M4.
+The game plan was to use this new server to offer a Game Server Hosting service for games such as Minecraft and similar titles. It was mostly built off of Blesta (and Stripe) for billing and user management and Pterodactyl for the actual Hosting Service. This enhanced my knowledge of Docker and led me to put everything I had in Docker containers, further enhancing my understanding of real-world technologies and virtualization techniques used in companies.&lt;/p>
+&lt;p>&lt;img src="https://blog.whitecat.dev/p/nova-pc/image3.svg"
+loading="lazy"
+alt="Image 3"
+>&lt;/p>
+&lt;h2 id="the-closure-of-nova-pc-entirely">The Closure of Nova PC entirely.
+&lt;/h2>&lt;p>For now, Nova PC is closed indefinitely. I am currently pursuing my studies to achieve a Baccalaureate in Computer Science with the Cybersecurity specialization, and thus most of my focus is on that.&lt;/p></description></item></channel></rss>
